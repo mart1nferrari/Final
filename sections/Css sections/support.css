@@ -1,0 +1,330 @@
+/* ---------------------------HEADER---------------------------------- */
+
+.header
+{
+    background-color: #252525;  
+    height: 70px;
+}
+
+.header_menu
+{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+/* logo */
+.header_logo 
+{
+    padding-left: 20px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Dela Gothic One', cursive;
+
+    font-size: 20px;
+    transform: translateY(-2px);
+}
+
+.header_logo a
+{
+    color: white;
+    text-decoration: none;
+
+    transition: transform 0.2s;
+}
+
+.header_logo a:hover
+{
+    transform: scale(1.1, 1.1);
+}
+
+.header_lista
+{
+    align-self:center;
+    transform: translateX(-20px);
+}
+
+.header_lista ul
+{
+    display: flex;
+}
+
+.header_lista ul li
+{
+    margin: 25px;
+
+    transition: transform 0.3s;
+}
+
+
+/* seciones */
+
+.header_menu ul li a
+{
+    color:  white;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 17px;
+
+}
+
+.header_menu ul li:hover
+{
+    transform: translateY(-3px);
+}
+
+
+/* user */
+
+.header_user
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header_user a
+{
+    color: #252525;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+
+    
+    height: 30px;
+    width: 70px;
+
+    background-color: white;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -----------------------------main-------------------------- */
+
+.main_1
+{
+    background-color: #7D5CA3;
+    background-image: url(../../imagenes/background/image2.png);
+    background-size: 1900px;
+    background-position-x: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 540px;
+}
+
+.main_1_title
+{
+    color: white;
+    text-align: left;
+    font-size: 45px;
+    font-family: 'Dela Gothic One', cursive;
+    word-spacing: 15px;
+    padding-bottom: 30px;
+
+    margin: 0px 1000px 0px 200px;
+}
+
+.main_1_text
+{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+    margin: 0px 1000px 0px 200px;
+}
+
+/* --------------------INTRO----------------------- */
+
+.intro
+{
+    background: #F6F6F6; 
+    color: #252525; 
+    padding-top:80px;
+
+    height: 120px;
+ 
+}
+
+.intro_title
+{
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    font-family: 'Dela Gothic One', cursive;
+
+    padding-bottom: 40px;
+
+    font-size: 40px;
+}
+
+.intro_text
+{
+    padding-top: 5px;
+
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+
+    font-size: 20px;
+}
+
+
+/* ------------------GRID------------------------- */
+
+/* PADRE */
+.grid
+{
+    height: 700px;
+    background: #F6F6F6; 
+
+    /* grid */
+
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-template-rows: 230px 230px;
+    grid-gap: 20px 30px;
+
+    /* alineacion */
+
+    justify-content: center;
+    align-content: center;
+
+
+    position: relative;
+
+}
+
+.grid.items
+{
+    justify-items: center;
+    align-items: center; 
+}
+
+/* HIJOS */
+
+.grid .item
+{
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    background-color: #CB13FA;
+
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.3s;
+
+    position: relative;
+}
+
+.grid .item:hover
+{
+    transform: translateY(-10px);
+}
+
+
+.grid .item p
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    font-size: 25px;
+    font-family: 'Dela Gothic One', cursive;
+
+    opacity: 0;
+}
+
+.grid .item p:hover
+{
+    background-color: rgb(255, 255, 255, 0.6);
+    opacity: 1;
+}
+
+.grid .item8 img
+{
+    transform: translate(0px, -5px);
+}
+
+.grid .item5 img
+{
+    transform: translate(0px, -5px);
+}
+
+/* ----------------------------section 2-------------------------- */
+
+
+
+/* ----------------------FOOTER --------------------- */ 
+
+.footer
+{
+    background-color: #252525; 
+    height: 480px;
+    margin-top: 300px;
+}
+
+/* cuadro del footer(invisible)*/
+.footer_cuadro
+{
+    padding: 50px 350px 0px 350px;
+}
+
+/* titulo */
+.footer_titulo
+{
+    color: #CB13FA;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 23px;
+    word-spacing: 5px;
+}
+
+.footer_lista
+{
+    padding-bottom: 100px;
+    padding-top: 40px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+}
+
+
+.footer_lista ul li 
+{
+    color:  #CB13FA;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.footer_lista ul li a
+{
+    color:  white;
+    text-decoration: none;
+}
+
+hr
+{
+    border-color: #CB13FA;
+}
