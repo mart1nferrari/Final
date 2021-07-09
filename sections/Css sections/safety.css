@@ -130,7 +130,9 @@
     word-spacing: 15px;
     padding-bottom: 30px;
 
-    margin: 0px 1000px 0px 200px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .main_1_text
@@ -141,8 +143,157 @@
     line-height: 25px;
     font-family: 'Noto Sans JP', sans-serif;
 
-    margin: 0px 1000px 0px 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+
 }
+
+/* ----------main2------------ */
+
+.main_2
+{
+    background-color: #F6F6F6;
+
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+}
+
+.main_2_text1
+{
+    margin: 0px 400px 0px 400px;
+}
+
+.main_2_text1 h1
+{
+    padding-bottom: 30px;
+    font-family: 'Dela Gothic One', cursive;
+    line-height: 40px;
+    font-size: 35px;
+}
+
+.main_2_text1 p
+{
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 32px;
+}
+
+/* ----------main3---------grid-------- */
+
+.main_3
+{
+
+    height: 750px;
+
+    display: grid;
+    align-content: center;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+
+    row-gap: 30px;
+    column-gap: 0px;
+
+    margin: 20px 300px 0px 300px;
+}
+
+.main_3 div
+{
+    margin: 0px 100px 0px 100px;
+}
+
+/* cuadro 1 */
+
+.main_3_cuadro_1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_3_cuadro_1 h1
+{
+    font-size: 32px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main_3_cuadro_1 p
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 27px;
+}
+
+/* cuadro 2 */
+
+.main_3_cuadro_2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_3_cuadro_2 h1
+{
+    font-size: 32px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main_3_cuadro_2 p
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 27px;
+}
+
+/* cuadro 3 */
+
+.main_3_cuadro_3
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_3_cuadro_3 h1
+{
+    font-size: 32px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main_3_cuadro_3 p
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 27px;
+}
+/* cuadro 4 */
+
+.main_3_cuadro_4
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_3_cuadro_4 h1
+{
+    font-size: 32px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main_3_cuadro_4 p
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 27px;
+}
+
 
 /* FOOTER */
 
@@ -150,7 +301,6 @@
 {
     background-color: #252525; 
     height: 480px;
-    margin-top: 300px;
 }
 
 /* cuadro del footer(invisible)*/

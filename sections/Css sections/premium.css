@@ -124,26 +124,28 @@
 
 .main_1_title
 {
+    display: flex;
+    justify-content: center;
+
     color: white;
     text-align: left;
     font-size: 45px;
     font-family: 'Dela Gothic One', cursive;
     word-spacing: 15px;
     padding-bottom: 30px;
-
-    margin: 0px 1000px 0px 200px
 }
 
 .main_1_text
 {
+    display: flex;
+    justify-content: center;
+    
     color: white;
     text-align: left;
     font-size: 20px;
     line-height: 25px;
 
     font-family: 'Noto Sans JP', sans-serif;
-
-    margin: 0px 1000px 0px 200px
 }
 
 .main_1_buttons
@@ -155,7 +157,6 @@
     font-family: 'Noto Sans JP', sans-serif;
 
     padding-top: 20px;
-    margin: 0px 1000px 0px 200px
 }
 
 .main_1_buttons_month

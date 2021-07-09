@@ -15,59 +15,70 @@
 
      <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+    
     
 </head>
 <body>  
-    
+
+    <!-- HEADER -->
+
     <header class="header">
 
-        <span class="header_user">
-            User
-        </span> 
-   
-        <div class="header_registrate">
-            <strong> 
-                Register here
-            </strong>           
-        </div>
+        <section class="header_menu">
 
-       <!--  <div>
-            <a href=""> menu </a>
-        </div>
-        -->
+            <div class="header_logo">
+
+                <!-- Imagen -->
+                <a href="../index.html"> CHATBOX </a>
+                <!-- <img src="" alt=""> -->
+
+            </div>
+
+            <nav class="header_lista">
+                <ul>
+                    <li> <a href=""> Download </a> </li>
+                    <li> <a href="sections/../premium.html"> Premium </a> </li>
+                    <li> <a href="sections/../safety.html"> Safety </a> </li>
+                    <li> <a href="sections/../support.html"> Support </a> </li>
+                    <li> <a href="sections/../about.html"> About us </a> </li>
+
+                </ul>
+            </nav>
+
+            <div class="header_user">
+                <a href="sections/../user.html"> User </a>
+            </div>
+    
+
+         </section>
+
     </header>
+ 
 
-<main class="formulario">
+<main class="formulario_background">
 
-    <form action="" enctype="text/plain">
+    <form class="formulario" action="" enctype="text/plain">
+
+        <h1>
+            Register here!
+        </h1>
+
+        
+        <label for="email"> Email: </label>
+        <input type="email" id="email" name="email">
 
         <label for="name"> Name: </label>
         <input type="text" id="name" name="name">
-        <br><br>
-
-
-        <label for="apellido"> Surname: </label>
-        <input type="text" id="apellido" name="apellido">
-        <br><br>
-
-        <label for="edad"> Date: </label>
-        <input type="date" id="edad" name="edad">
-        <br><br>
-
-        <label for="email"> Email: </label>
-        <input type="email" id="email" name="email">
-        <br><br>
 
         <label for="pass"> Password: </label>
         <input type="password" id="pass" name="pass">
-        <br><br>
 
-        
-        <label for="informacion"> Gender:</label>
-        <input type="radio" name="radio-igual" value="acepto"> Male
-        <input type="radio" name="radio-igual" value="no-acepto"> Female
-        <input type="radio" name="radio-igual" value="no-acepto"> Non-binary
-        <br><br>
+        <label for="edad"> Date: </label>
+        <input type="date" id="edad" name="edad">
 
         <label for="country"> Country: </label>
         <select name="country" id="country">
@@ -82,26 +93,22 @@
             <option value="URU">Uruguay</option>
         </select>
 
-        <br><br>
-
         <label for="check-1">Accept terms and conditions</label>
         <input type="checkbox" id="check-1" name="acepta" value="1">
-        <br><br>
-
-        <label for="check-2">Accept Chatbox to give your location</label>
-        <input type="checkbox" id="check-2" name="no-acepto" value="2">
-        <br><br>
         
+        <div class="formualrio_SendDelete">
 
+            <input type="submit" value="Send">
+            <input type="reset" value="Delete">
 
-        <input type="submit" value="Send">
-        <input type="reset" value="Delete">
+        </div>
+
 
     </form>
 
 </main>
 
-<!-- footer para main, y algunas secciones -->
+<!-- FOOTER para main, y algunas secciones -->
 <footer class="footer">
 
     <section class="footer_cuadro">
@@ -114,12 +121,12 @@
             <ul>
                 <li>Product</li>
                 <li> <a href=""> Download </a> </li>
-                <li> <a href="premium.html"> Premium </a> </li>
+                <li> <a href="sections/premium.html"> Premium </a> </li>
                 <li> <a href="sections/soporte.html"> Status </a> </li>
             </ul>
         </div>
 
-        <hr color="#7D5CA3" size="1">
+        <hr color="5500DC" size="1">
 
      </section>
 
