@@ -137,6 +137,10 @@
 
 @media screen and (max-width: 425px)
 {
+    .header_logo
+    {
+        padding: 13px;
+    }
     .header_lista
     {
         display: flex;
@@ -238,12 +242,14 @@
     background-color: #252525; 
     height: 480px;
     /*     margin-top: 300px; */
+    display: flex;
+    flex-direction: column;
 }
 
 /* cuadro del footer(invisible)*/
 .footer_cuadro
 {
-    padding: 50px 350px 0px 350px;
+    margin: 70px 300px 0px 300px;
 }
 
 /* titulo */
@@ -266,7 +272,7 @@
 
 .footer_lista ul li 
 {
-    color:  #CB13FA;
+    color:  #c5c5c5;
     text-decoration: none;
     padding: 10px;
 }
@@ -281,4 +287,20 @@
 hr
 {
     border-color: #CB13FA;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .footer_cuadro
+    {
+        margin: 70px 100px 0px 100px;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+    .footer_cuadro
+    {
+        margin: 20px 20px 0px 20px;
+    }
 }
